@@ -29,7 +29,7 @@ final class Hello_World extends Component
                 $menu['items']['hello_world'] = [
                     'label' => 'Hello World',
                     'route' => 'hello_world_page',
-                    'order' => 11
+                    '_order' => 123
                 ];
 
                 return $menu;
